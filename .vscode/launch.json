@@ -7,6 +7,14 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal"
+        },
+        {
+            "name": "Test",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "args": ["-v"],
+            "console": "integratedTerminal"
         }
     ]
 }
