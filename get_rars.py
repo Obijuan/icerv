@@ -1,3 +1,5 @@
+"""Download the Rars simulator"""
+
 from colorama import Fore, Style
 
 print("Hola...")
