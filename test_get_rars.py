@@ -7,6 +7,8 @@ class TestInitial(unittest.TestCase):
 
     def test_output(self):
         print("Testing...")
+        a = True
+        self.assertTrue(a)
 
 
 
