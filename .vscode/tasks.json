@@ -7,6 +7,21 @@
             "type": "shell",
             "command": "${command:python.interpreterPath}",
             "args": ["-m", "pylint", "get-rars.py"],
+            "problemMatcher": {
+		        "owner": "python",
+		        "fileLocation": [
+			        "relative",
+			        "${workspaceFolder}"
+		        ],
+		        "pattern": {
+			        "regexp": "^(.*):(\\d+):(\\d+):\\s+(W|E|C).+:\\s+(.*)$",
+			        "file": 1,
+			        "line": 2,
+			        "column": 3,
+			        "severity": 4,
+			        "message": 5
+		        }
+	        }
         }
     ]
 }
