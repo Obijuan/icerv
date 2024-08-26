@@ -15,4 +15,5 @@ if __name__ == '__main__':
     print(Fore.GREEN + "Texto en verde")
     print(Style.RESET_ALL)
     print("Normal")
+    print("Test!!!!")
     
